@@ -8,6 +8,17 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* Tablet Landscape */
+@media screen  (max-width: 800px) {
+    #primary { width:47%; }
+    #secondary { width:20%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen (max-width: 368px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
 body{
     background: linear-gradient(to right, #3525af, #9153c9);
 }
@@ -168,6 +179,7 @@ body{
 .header .about{
     margin-top: 20px;
     line-height: 26px;
+    text-align: justify;
 }
 
 .right_inner{
@@ -194,6 +206,7 @@ body{
     width: cal(100% - 125px);
     padding-left: 25px;
     position: relative;
+    text-align: justify;
 }
 
 .right_inner .li_wrap .info_title{
