@@ -173,7 +173,7 @@ body{
 .header .role{
     font-weight: 300;
     font-size: 16px;
-    color: #f58e07;
+    color: #fff;
 }
 
 .header .about{
@@ -194,13 +194,13 @@ body{
 
 .right_inner .li_wrap{
     display: inline;
-    margin-bottom: 15px;
 }
 
 .right_inner .li_wrap .date{
     width: 125px;
     color: #3525af;
-    font-weight: 100;
+    font-weight: 200;
+    margin-top: 10px;
 }
 
 .right_inner .li_wrap .info{
@@ -256,6 +256,10 @@ body{
         margin: 0 auto;
     }
 
+    .header .role{
+        width: fit-content;
+    }
+
     .left{
         width: 100%;
     }
@@ -265,11 +269,14 @@ body{
     }
 
     .body{
-        width: fit-content
+        width: fit-content;
     }
 }
 
 @media only screen and (max-width: 411px){
+    .header .role{
+        width: fit-content;
+    }
     .resume{
         width: 100%
     }
@@ -286,11 +293,16 @@ body{
         width: 600px;
         margin: 0 auto;
     }
+
 }
 
 @media only screen and (max-width: 414px){
     .resume{
         width: 100%
+    }
+
+    .header .role{
+        width: fit-content;
     }
 
     .left{
@@ -310,6 +322,10 @@ body{
 @media only screen and (max-device-width: 980px){
     .resume{
         width: 100%;
+    }
+
+    .header .role{
+        width: initial;
     }
 }
 
