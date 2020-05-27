@@ -71,12 +71,12 @@ body{
 }
 
 .left .title {
-    color: #f17f14;
+    color: #f58e07;
 }
 
 .left .icon{
     font-size: 20px;
-    color: #f17f14;
+    color: #f58e07;
 }
 
 .left .text{
@@ -172,6 +172,7 @@ body{
 .header .role{
     font-weight: 300;
     font-size: 16px;
+    color: #f58e07;
 }
 
 .header .about{
